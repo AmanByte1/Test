@@ -9,4 +9,5 @@ def rf1(fn):
 
 
 for l in rf("xyz.txt"):
+    
     process(l)
