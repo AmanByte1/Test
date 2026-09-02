@@ -1,0 +1,107 @@
+.admin-login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy);
+  padding: 24px;
+}
+
+.admin-login__card {
+  width: 100%;
+  max-width: 400px;
+  background: var(--navy-mid);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 40px 36px;
+}
+
+.admin-login__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.admin-login__header .brand-box {
+  display: inline-block;
+  background: var(--electric);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.admin-login__header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+.admin-login__header p {
+  color: var(--grey);
+  font-size: 0.88rem;
+}
+
+.admin-login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aform-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.aform-group label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.aform-group input {
+  background: var(--navy);
+  border: 1.5px solid rgba(255,255,255,0.1);
+  border-radius: 7px;
+  color: var(--white);
+  padding: 11px 14px;
+  font-size: 0.92rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.aform-group input:focus { border-color: var(--electric); }
+
+.admin-login__error {
+  background: rgba(239,68,68,0.1);
+  border: 1px solid rgba(239,68,68,0.3);
+  color: #f87171;
+  border-radius: 7px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+}
+
+.admin-login__btn {
+  background: var(--electric);
+  color: #fff;
+  padding: 12px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 4px;
+}
+.admin-login__btn:hover:not(:disabled) { background: #2563eb; }
+.admin-login__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.admin-login__back {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+.admin-login__back a { color: var(--grey); transition: color 0.2s; }
+.admin-login__back a:hover { color: var(--electric-bright); }
