@@ -1,4 +1,1 @@
-hi,
-aman
-30
-bye
+This is a file which contain infohello
