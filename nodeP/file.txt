@@ -1,0 +1,4 @@
+hi,
+aman
+30
+bye
